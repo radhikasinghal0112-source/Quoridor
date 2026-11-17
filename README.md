@@ -1,4 +1,5 @@
 # Quoridor
+![tests](https://github.com/radhikasinghal0112-source/Quoridor/actions/workflows/tests.yml/badge.svg)
 
 A terminal version of the board game Quoridor for two or four players, written in plain Python with no runtime dependencies. Race your pawn to the opposite side of the board, and place walls to slow your opponents down.
 
