@@ -1,4 +1,5 @@
 # Quoridor
+
 ![tests](https://github.com/radhikasinghal0112-source/Quoridor/actions/workflows/tests.yml/badge.svg)
 
 A terminal version of the board game Quoridor for two or four players, written in plain Python with no runtime dependencies. Race your pawn to the opposite side of the board, and place walls to slow your opponents down.
@@ -18,13 +19,28 @@ A terminal version of the board game Quoridor for two or four players, written i
 - Optional chess-style clock: at the start of a two player game you choose no time limit, 5 minutes or 10 minutes each
 - A test suite that covers the rules, the game flow, the display and the interface
 
-## Quick start
+## Get the game
 
-Requires Python 3.9 or newer.
+You need Python 3.9 or newer from python.org. On Windows, tick "Add python.exe to PATH" in the installer.
+
+1. Download the code: click **Code** > **Download ZIP** on the GitHub page and unzip it, or run `git clone https://github.com/radhikasinghal0112-source/Quoridor.git`.
+2. Open a terminal in the folder that contains the `quoridor` folder.
+3. Start the game with the command in the next section.
+
+Or install it with pip and start it from anywhere:
+
+```
+pip install git+https://github.com/radhikasinghal0112-source/Quoridor.git
+quoridor
+```
+
+## Quick start
 
 ```
 python -m quoridor
 ```
+
+On Windows, if `python` is not found, use `py -m quoridor`.
 
 At the start of a two player game you are asked for a time limit: no limit, 5 minutes or 10 minutes per player. The answer is kept for rematches.
 
